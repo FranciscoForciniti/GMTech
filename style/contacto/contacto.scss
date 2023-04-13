@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;300;400;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@500&display=swap');
+@import url(https://fonts.googleapis.com/css?family=Khula:700);
+
+//! --------- Variables --------
+
+$color-primari:#4749E0;
+
+
+
+body{
+    font-family: 'Nunito Sans', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0px;
+    padding: 0px;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    background-color: $color-primari;
+    color: #fff;
+    position: fixed;
+    top: 0.01rem;
+
+
+
+        .logo-bar-nav{
+        display: flex;
+        flex-direction: column;
+
+            a{
+                text-decoration: none;
+                font-size: 30px;
+                font-family: 'Chakra Petch', sans-serif;
+                color: #fff;
+        }
+            p{
+                padding: 0px;
+                margin: 0px;
+                font-size: 11px;
+                font-weight: 100;
+                font-family: 'Chakra Petch', sans-serif;
+        }
+    }
+
+
+        .bar-nav{
+            display: flex;
+
+                ul{
+                    display: flex;
+                    list-style: none;
+                    gap: 20px;
+
+                li{
+                    a{
+                        color:#fff;
+                        text-decoration: none;
+                        padding: 5px;
+                        border-radius:10px;
+
+                            &:hover{
+                                background-color: #fff;
+                                color: $color-primari;
+                                transition: .4s;
+                        }
+                    }
+
+                }
+            }
+        }
+
+}
