@@ -1,0 +1,30 @@
+/** ----------- Estilos de Fuentes ----------- */
+
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;300;400;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@500&display=swap");
+@import url(https://fonts.googleapis.com/css?family=Khula:700);
+
+
+
+/** ----------------------------------------------- */
+
+
+/** ------------- Componentes -------------*/
+
+@import url(../nav-bar/_nav-bar.css);
+@import url(./formulario/_formulario-contacto.css);
+
+
+
+
+
+
+body {
+  font-family: "Nunito Sans", sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0px;
+  padding: 0px;
+}
