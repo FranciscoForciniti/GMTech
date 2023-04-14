@@ -1,0 +1,57 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;300;400;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@500&display=swap");
+@import url(https://fonts.googleapis.com/css?family=Khula:700);
+
+
+
+.sec-cta {
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+}
+.sec-cta .cta-img img {
+  width :250px;
+  margin:20px 0px;
+
+}
+.sec-cta .cta-contain {
+  width: 250px;
+  color: #fff;
+  padding: 1.25rem;
+  box-shadow: 0px 0px 15px #6568ec;
+  background-color: #4749e0;
+  border-radius: 1.25rem;
+}
+.sec-cta .cta-contain h3 {
+  font-size: 1.5625rem;
+  text-decoration: underline;
+}
+
+
+@media (min-width: 425px){
+  .sec-cta .cta-img img {
+    width :300px;
+    margin:20px 0px;
+
+  }
+}
+
+@media (min-width: 768px){
+
+  .sec-cta {
+    flex-direction: row-reverse;
+  }
+}
+
+@media (min-width: 1024px){
+  .sec-cta .cta-contain {
+    width: 400px;
+  }
+
+  .sec-cta .cta-img img {
+    width :400px;
+    margin:20px 0px;
+  }
+}

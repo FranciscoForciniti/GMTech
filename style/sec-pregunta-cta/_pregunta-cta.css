@@ -1,0 +1,108 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;300;400;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@500&display=swap");
+@import url(https://fonts.googleapis.com/css?family=Khula:700);
+
+
+
+.sec-pregunta-cta {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100%;
+  background-color: #f8f8ff;
+}
+.sec-pregunta-cta .pregunt-cta{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.sec-pregunta-cta .pregunt-cta h6 {
+  display: flex;
+  text-align: center;
+  font-size: 25px;
+  width: 100%;
+}
+.sec-pregunta-cta .cta-btn-afirm {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  padding-bottom: 20px;
+}
+.sec-pregunta-cta .cta-btn-afirm p {
+  font-size: 17px;
+  text-align: center;
+}
+.sec-pregunta-cta .cta-btn-afirm button {
+  width: 9.375rem;
+  border: none;
+  color: #fff;
+  border-radius: 1.25rem;
+  background-color: #4749e0;
+  font-size: 1.25rem;
+  padding: 0.5rem 0.9375rem;
+}
+.sec-pregunta-cta .cta-btn-afirm button a {
+  color: #fff;
+  text-decoration: none;
+}
+.sec-pregunta-cta .cta-btn-afirm button:hover {
+  transition: 0.2s;
+  box-shadow: 0px 0px 10px #6568ec;
+}
+
+
+
+/** ----------- MEDIA QUERIES ---------*/
+
+
+@media (min-width: 280px){
+  .sec-pregunta-cta .pregunt-cta h6 {
+    font-size: 20px;
+
+  }
+
+  .sec-pregunta-cta .cta-btn-afirm {
+    width: 230px;
+  }
+}
+
+@media (min-width: 768px){
+  .sec-pregunta-cta {
+    flex-direction: row;
+  }
+  .sec-pregunta-cta .cta-btn-afirm p {
+    font-size: 15px;
+    text-align: center;
+  }
+
+  .sec-pregunta-cta .cta-btn-afirm button {
+    font-size: 15px;
+
+  }
+}
+
+
+@media (min-width:1024px){
+  .sec-pregunta-cta {
+    flex-direction: row;
+    width: 100%;
+  }
+  .sec-pregunta-cta .cta-btn-afirm p {
+    font-size: 18px;
+    width: 300px;
+  }
+
+  .sec-pregunta-cta .pregunt-cta h6 {
+    font-size: 30px;
+
+  }
+
+  .sec-pregunta-cta .cta-btn-afirm button {
+    font-size: 15px;
+
+  }
+
+}
