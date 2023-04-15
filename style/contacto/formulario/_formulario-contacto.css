@@ -55,18 +55,18 @@ label{
     height: 20px;
 }
 
-label[for="Nombre"],
+label[for="nombre"],
 label[for="contacto"],
-label[for="Asunto"],
-label[for="Mensaje"]
+label[for="asunto"],
+label[for="mensaje"]
 {
     margin: 10px 0px;
     font-family: "Nunito Sans", sans-serif;
 }
-input[id="Nombre"],
+input[id="nombre"],
 input[id="contacto"],
-input[id="Asunto"],
-input[id="Mensaje"]{
+input[id="asunto"],
+input[id="mensaje"]{
     border:none;
     width: 200px;
     padding: 5px 15px;
@@ -148,9 +148,9 @@ display: none;
     }
 
 
-    label[for="Nombre"],
-    label[for="Asunto"],
-    label[for="Mensaje"]{
+    label[for="nombre"],
+    label[for="asunto"],
+    label[for="mensaje"]{
         width: 70px;
         padding-left: 10px;
         border-radius: 20px;
@@ -164,10 +164,10 @@ display: none;
     }
 
 
-    input[id="Nombre"],
+    input[id="nombre"],
     input[id="contacto"],
-    input[id="Asunto"],
-    input[id="Mensaje"]{
+    input[id="asunto"],
+    input[id="mensaje"]{
     border:none;
     width: 170px;
     padding: 8px 18px;
