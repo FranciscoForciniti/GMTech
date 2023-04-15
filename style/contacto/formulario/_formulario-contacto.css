@@ -56,7 +56,7 @@ label{
 }
 
 label[for="Nombre"],
-label[for="Email"],
+label[for="contacto"],
 label[for="Asunto"],
 label[for="Mensaje"]
 {
@@ -64,7 +64,7 @@ label[for="Mensaje"]
     font-family: "Nunito Sans", sans-serif;
 }
 input[id="Nombre"],
-input[id="Email"],
+input[id="contacto"],
 input[id="Asunto"],
 input[id="Mensaje"]{
     border:none;
@@ -156,7 +156,7 @@ display: none;
         border-radius: 20px;
         font-weight: bold;
     }
-    label[for="Email"]{
+    label[for="contacto"]{
         padding-left: 10px;
         padding-right: 8px;
         border-radius: 20px;
@@ -165,7 +165,7 @@ display: none;
 
 
     input[id="Nombre"],
-    input[id="Email"],
+    input[id="contacto"],
     input[id="Asunto"],
     input[id="Mensaje"]{
     border:none;
