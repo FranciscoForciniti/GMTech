@@ -65,6 +65,7 @@ label[for="Mensaje"]
 }
 input[id="Nombre"],
 input[id="contacto"],
+input[id="Asunto"],
 input[id="Mensaje"]{
     border:none;
     width: 200px;
@@ -148,6 +149,7 @@ display: none;
 
 
     label[for="Nombre"],
+    label[for="Asunto"],
     label[for="Mensaje"]{
         width: 70px;
         padding-left: 10px;
@@ -164,6 +166,7 @@ display: none;
 
     input[id="Nombre"],
     input[id="contacto"],
+    input[id="Asunto"],
     input[id="Mensaje"]{
     border:none;
     width: 170px;
