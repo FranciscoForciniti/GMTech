@@ -33,13 +33,12 @@
   text-decoration: none;
   margin-left: 20px;
 }
-.logo .logotype h1 {
-  text-decoration: none;
+.logotype img{
+  padding-top: 10px;
+  padding-left: 10px;
+  width: 80px;
 }
 
-.logo img {
-  border-radius: 50%;
-}
 
 /* Menu */
 .menu {
