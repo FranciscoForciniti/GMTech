@@ -107,10 +107,12 @@ input:focus{
     background-color: #fff;
     border-radius: 20px;
 }
-
-.soporte-card img{
-display: none;
+.soporte-card{
+    display: none;
 }
+/* .soporte-card img{
+display: none;
+} */
 
 
 
