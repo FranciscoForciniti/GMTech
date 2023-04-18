@@ -110,6 +110,9 @@ input:focus{
 .soporte-card{
     display: none;
 }
+.soporte-card > h3 ,h6{
+    display:none;
+}
 /* .soporte-card img{
 display: none;
 } */
