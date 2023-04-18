@@ -252,6 +252,9 @@ display: none;
     padding:10px  40px ;
     border-bottom: 1px solid rgb(138, 138, 138);
     }
+    .soporte-card > h3 ,h6{
+        display:flex;
+    }
 
     .img-soporte{
         display: flex;
